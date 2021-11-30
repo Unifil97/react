@@ -8,7 +8,7 @@ function App() {
   const [cityname, setCityname] = useState("Jyväskylä")
   
     const [weather, setWeather] = useState(null);
-    const API_KEY = '7472328b2f8c766332860d8fbd0b0860'
+    const API_KEY = 'api key tähän'
     ;
 const URL = 'https://api.openweathermap.org/data/2.5/weather?q=';
 const ICON_URL = 'http://openweathermap.org/img/wn/';
